@@ -1,0 +1,21 @@
+{
+    "name": "urlsGithub",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "Replace the github URL with the github.io URL.",
+    "icons": {
+        "16": "urlsGithub.png",
+        "48": "urlsGithub.png",
+        "128": "urlsGithub.png"
+    },
+    "action": {
+        "default_icon": "urlsGithub.png",
+        "default_popup": "src/index.html"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://github.com/*"
+    ]
+}
